@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f5f0;
+   }
+   .hero {
+    background: linear-gradient(to right, #5a3d2b, #8c7154);
+   }
+   img {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+    transition: transform 0,6s;
+   }
+   img:hover {
+    transform: scale(1.05);
+   }
+   footer {
+    background-color: #3e2f23;
+   }
+   .is-invalid {
+    border-color: #dc3545 !important;
+   }
+   .navbar-nav .nav-link {
+    color: #fff !important;
+   }
+   .navbar-nav .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+   }
+
+   
+   
+   
