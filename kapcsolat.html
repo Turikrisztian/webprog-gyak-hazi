@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ínyenc Ételek – Kapcsolat</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigáció -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<div class="container">
+<a class="navbar-brand" href="index.html">Ínyenc Ételek</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Főoldal</a></li>
+<li class="nav-item"><a class="nav-link" href="receptek.html">Receptek</a></li>
+<li class="nav-item"><a class="nav-link" href="tablazat.html">Táblázat</a></li>
+<li class="nav-item"><a class="nav-link active" href="kapcsolat.html">Kapcsolat</a></li>
+<li class="nav-item"><a class="nav-link" href="rolunk.html">Rólunk</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<header class="hero text-white text-center py-5">
+<div class="container">
+<h1>Lépj velünk kapcsolatba!</h1>
+<p class="lead">Töltsd ki az űrlapot, ha kérdésed van, vagy üzenni szeretnél.</p>
+</div>
+</header>
+<main class="container my-5">
+<form id="contact-form" class="needs-validation" novalidate>
+<div class="mb-3">
+<label for="name" class="form-label">Név:</label>
+<input type="text" class="form-control" id="name" name="name" required>
+<div class="invalid-feedback">Kérlek, adj meg legalább 10 karaktert!</div>
+</div>
+<div class="mb-3">
+<label for="email" class="form-label">Email cím:</label>
+<input type="email" class="form-control" id="email" name="email" required>
+<div class="invalid-feedback">Kérlek, adj meg érvényes email címet!</div>
+</div>
+<div class="mb-3">
+<label for="subject" class="form-label">Tárgy:</label>
+<input type="text" class="form-control" id="subject" name="subject" required>
+<div class="invalid-feedback">Legalább 10 karakter hosszú tárgy szükséges!</div>
+</div>
+<div class="mb-3">
+<label for="phone" class="form-label">Telefonszám:</label>
+<input type="text" class="form-control" id="phone" name="phone" required>
+<div class="invalid-feedback">Kérlek, add meg a telefonszámod (minimum 10 karakter)!</div>
+</div>
+<div class="mb-3">
+<label for="message" class="form-label">Üzenet:</label>
+<textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+<div class="invalid-feedback">Az üzenet mező legalább 10 karakter hosszú legyen!</div>
+</div>
+<button type="submit" class="btn btn-success">Küldés</button>
+<br> </br>
+<div class="row text-center">
+    <div class="col-md-4 mb-4">
+      <img src="harold.webp" style="height: 300px;" class="img-fluid rounded shadow" alt="harold">
+    </div>
+    <div class="col-md-4 mb-4">
+      <img src="harold2.webp" style="height: 300px;" class="img-fluid rounded shadow" alt="harold2">
+    </div>
+    <div class="col-md-4 mb-4">
+      <img src="harold3.jpg" style="height: 300px;" class="img-fluid rounded shadow" alt="harold3">
+    </div>
+  </div>
+ 
+</main>
+<footer class="bg-dark text-white text-center py-3">© 2025 Ínyenc Ételek</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
